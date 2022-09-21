@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /*border: solid ;*/
+
+    background: linear-gradient(100deg,blueviolet,rgb(58, 158, 224));
+    align-items: center;
+    padding: 10px;
+    border-radius: 40px; 
+}
+
+#logo-empresa{
+    display: flex;
+    /* Border: solid */
+    height: 100px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#logo{
+    height: 15 0px;
+    width: 150px;
+
+}
+
+/* Aplicamos estilos a la barra de navegacion*/
+
+nav .link-nav{
+    padding-right: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold; /* Aplica negrita*/
+    margin-left: 20px;
+}
+
+nav .link-nav:hover{
+    background: tomato;
+    color: white;
+    padding: 20px;
+    border-radius: 100px; 
+}
+
+#empresa{
+    font-size: 50px;
+}
+
+body{
+    background: linear-gradient(100deg,rgb(58, 158, 224), pink);
+}
